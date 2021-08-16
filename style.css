@@ -2,15 +2,19 @@ html,
 body {
     font-family: "Courier New", monospace;
     background-color: #000;
-    color: #0f0;
+    color: #008000;
     height: 100%;
+}
+
+.image {
+    margin: 2em;
 }
 
 .content {
     width: 70vw;
     max-width: 900px;
     margin: auto;
-    background-color: #000f00;
+    background-color: #001100;
     display: flex;
     flex-direction: column;
 }
@@ -24,27 +28,19 @@ body {
     height: 65vmin;
 }
 
-h1 {
-    align-self: center;
-    font-size: 3vmin;
-}
-
-h2 {
-    margin: 1em;
-}
-
 p {
+    font-size: 3em;
     margin: 1em;
     text-transform: lowercase;
     text-align: center;
 }
 
 a:link {
-    color: #0f0;
+    color: #008000;
 }
 
 a:visited {
-    color: green;
+    color: #008000;
 }
 
 a:hover {
